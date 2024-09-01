@@ -1,0 +1,42 @@
+body{
+    font-family:'arial',sans-serif;
+ }
+
+.todoApp {
+  width: 500px;
+  margin: 100px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+input[type="text"] {
+    padding: 7px;
+    width: 70%;
+    margin-right: 10px;
+  }
+  button {
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .taskItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  .taskItem.completed span {
+    text-decoration: line-through;
+  }
+  .taskItem.completed button {
+    display: none;
+  }
